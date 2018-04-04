@@ -1,0 +1,197 @@
+// =======================
+// Import a fancy font
+// =======================
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700,400italic);
+
+// =======================
+// VARIABLES
+// =======================
+$primary-color: rgb(70,96,25);
+$secondary-color: rgb(68,49,0);
+$tertiary-color: rgb(204,196,188);
+$accent-color: rgb(225,225,204);
+$error-color: rgb(181,25,0);
+
+$black: #000000;
+$white: #ffffff;
+
+// Body
+$font-stack: 'Open Sans', sans-serif;
+$content-body-desktop-width: 0em 15em;
+$content-body-laptop-width: 0em 7em;
+$content-body-tablet-width: 0em 2em;
+$content-body-mobile-width: 0em 0em;
+
+// Title
+$title-color: $primary-color;
+$title-size: 2.25em;
+
+// Navigation
+$nav-color: $tertiary-color;
+$nav-hover: $primary-color;
+$nav-selected: $primary-color;
+$nav-size: 1.25em;
+$nav-height: 100px;
+
+// Elements
+h1, h2 {
+  font-family: $font-stack;
+  text-transform: uppercase;
+  color: $primary-color;
+  font-weight: 400;
+  margin : 0;
+}
+
+h3, h4, h5 {
+  font-family: $font-stack;
+  text-transform: uppercase;
+  color: $tertiary-color;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: $secondary-color;
+}
+
+ul {
+  margin: 1em 0em;
+}
+
+li {
+  list-style: none;
+}
+
+// =======================
+// MAIN
+// =======================
+
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  height: 100%;
+}
+
+body {
+  font-family: $font-stack;
+  margin: 0px;
+  min-height: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+}
+.content_body {
+  display: inline-block;
+  border-left: 2px dotted $accent-color;
+  border-right: 2px dotted $accent-color;
+  margin: $content-body-desktop-width;
+  padding: 4em;
+  padding-top: $nav-height;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+img.pic-radius
+{
+	margin:auto;
+	display:block;
+	border:2px solid grey;
+	border-radius:15px;
+	-webkit-box-shadow: 10px 10px 14px black;
+	-moz-box-shadow: 10px 10px 14px black;
+	-o-box-shadow: 10px 10px 14px black;
+	box-shadow: 10px 10px 14px black;
+}
+
+button.button {
+    background-color: rgb(70,96,25);
+    color: white;
+    border: 1px solid transparent;
+    padding: 6px 20px 6px 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    font-weight: normal;
+    -webkit-box-shadow: 10px 10px 14px black;
+	  -moz-box-shadow: 10px 10px 14px black;
+	  -o-box-shadow: 10px 10px 14px black;
+	  box-shadow: 10px 10px 14px black;
+}
+
+/*.griddle-filter {
+    width:100%;
+    text-align:left;
+    color:#222;
+    min-height:1px;
+    height: 10px;
+  
+}*/
+
+/*.griddle-next-button {
+    background-color: rgb(70,96,25);
+    color: white;
+    border: 1px solid transparent;
+    padding: 6px 20px 6px 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    font-weight: normal;
+    -webkit-box-shadow: 10px 10px 14px black;
+	  -moz-box-shadow: 10px 10px 14px black;
+	  -o-box-shadow: 10px 10px 14px black;
+	  box-shadow: 10px 10px 14px black;
+}*/
+
+.griddle-table-heading {
+    text-align: left;
+    
+}
+.griddle-table-heading-cell {
+    border-style: none none solid none;
+}
+
+.griddle-page-select {
+    //display: block;
+    //margin: auto;
+    //display: block;
+    //margin-left: auto;
+    //margin-right: auto;
+    height: 38px;
+    width: 45px;
+    font-size: 15px;
+}
+
+/*.mainDiv {
+  background-image: url("../images/free_web_background_by_kgombocka-d4gz410.jpg");
+}*/
