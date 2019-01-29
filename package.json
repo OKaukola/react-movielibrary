@@ -69,5 +69,5 @@
     "type": "git",
     "url": "git+https://github.com/OKaukola/react-movielibrary-client.git"
   },
-  "homepage": ""
+  "homepage": "."
 }
