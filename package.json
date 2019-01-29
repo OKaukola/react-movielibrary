@@ -4,6 +4,7 @@
   "description": "A simple movie library application.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js"
     "dev": "webpack-dev-server --inline --hot"
   },
   "author": "OK",
@@ -67,5 +68,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OKaukola/react-movielibrary-client.git"
-  }
+  },
+  "homepage": ""
 }
