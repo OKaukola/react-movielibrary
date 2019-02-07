@@ -2,9 +2,9 @@ import React from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';
-
 import MovieInfoPage2 from './movieInfoPage2'
 import Register from './auth/register';
+
 
 const customContentStyle = {
   width: '30%',
