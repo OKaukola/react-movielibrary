@@ -32,7 +32,16 @@ module.exports = {
       { 
       test: /\.json$/, 
       loader: 'json' 
-    }]
+      },
+      {
+      exclude: [
+      /\.html$/, /\.(js|jsx)$/,/\.css$/,/\.scss$/,/\.json$/,/\.bmp$/,/\.gif$/,/\.jpe?g$/,/\.png$/,/\.ejs$/,
+      ],
+      loader: 'file-loader',
+      options: {
+      name: 'static/media/[name].[hash:8].[ext]',
+      },
+    },]
   },
   devServer: {
     historyApiFallback: true,
