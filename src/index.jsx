@@ -6,9 +6,10 @@ import { routerMiddleware } from 'react-router-redux';
 import { Router, browserHistory } from 'react-router';
 import thunkMiddleware from 'redux-thunk'
 import cookie from 'react-cookie';
-import routes from './routes';
-import reducers from './reducers/index';
 import ReactGA from 'react-ga';
+
+import routes from './routes.jsx';
+import reducers from './reducers';
 import { AUTH_USER } from './actions/types';
 
 /*

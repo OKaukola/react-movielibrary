@@ -2,7 +2,7 @@
   "name": "movielibraryclient",
   "version": "1.0.0",
   "description": "A simple movie library application.",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "react-scripts build",
