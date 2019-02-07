@@ -9,7 +9,6 @@ import components from './griddleComponents/index.js'
 import MovieInfoDialogModal from './movieinfo_popup_dialog'
 import DialogModalTest from './popupComponent'
 
-
 class Movies extends React.Component {
 
     componentWillMount() {
