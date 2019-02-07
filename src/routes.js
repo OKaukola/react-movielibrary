@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-import App from './components/app';
+import App from './components/app.jsx';
 import Programmers from './components/programmers';
 import Movies from './components/movies';
 import NotFoundPage from './components/notFoundPage';
