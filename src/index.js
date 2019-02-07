@@ -11,6 +11,7 @@ import reducers from './reducers/index';
 import ReactGA from 'react-ga';
 import { AUTH_USER } from './actions/types';
 
+/*
 const http = require('http');
 const port=process.env.PORT || 3000
 const server = http.createServer((req, res) => {
@@ -21,6 +22,7 @@ res.end('<h1>Hello World</h1>');
 server.listen(port,() => {
 console.log(`Server running at port `+port);
 });
+*/
 
 require('./assets/stylesheets/base.scss');
 require('./assets/stylesheets/lemonade.scss');

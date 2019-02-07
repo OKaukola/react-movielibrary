@@ -2,17 +2,17 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
 import App from './components/app.jsx';
-import Programmers from './components/programmers';
-import Movies from './components/movies';
-import NotFoundPage from './components/notFoundPage';
+import Programmers from './components/programmers.jsx';
+import Movies from './components/movies.jsx';
+import NotFoundPage from './components/notFoundPage.jsx';
 
-import Login from './components/auth/login'
-import Register from './components/auth/register';
-import Logout from './components/auth/logout';
-import ForgotPassword from './components/auth/forgot_password';
-import ResetPassword from './components/auth/reset_password';
+import Login from './components/auth/login.jsx'
+import Register from './components/auth/register.jsx';
+import Logout from './components/auth/logout.jsx';
+import ForgotPassword from './components/auth/forgot_password.jsx';
+import ResetPassword from './components/auth/reset_password.jsx';
 
-import RequireAuth from './components/auth/require_auth';
+import RequireAuth from './components/auth/require_auth.jsx';
 
 export default (
   <Route path='/' component={App}>

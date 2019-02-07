@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
-import RegisterDialogModal from './register_popup_dialog'
+
+import RegisterDialogModal from './register_popup_dialog.jsx'
 
 class Navigation extends Component {
   renderLinks() {
