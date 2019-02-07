@@ -1,6 +1,3 @@
-import { List, Map } from 'immutable';
-import update from 'react-addons-update';
-
 import { SUBMIT_TICKET, ERROR_RESPONSE, GET_MOVIE, DELETE_MOVIE } from '../actions/types';
 
 const INTIAL_STATE = { message: null, error: null, movies: [], mode: false };

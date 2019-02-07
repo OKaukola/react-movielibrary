@@ -1,19 +1,14 @@
-import React, { PropTypes } from 'react';
-import ReactDOM from 'react-dom';
-
-
+import React from 'react';
 import Center from 'react-center';
 import DialogModal from './popup_dialog';
-import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
-import SelectField from 'material-ui/SelectField';
 import { getMovie, deleteMovie, openDialog } from '../actions/index.js';
 import { connect } from 'react-redux';
 import Griddle, { plugins, RowDefinition, ColumnDefinition } from 'griddle-react';
 import components from './griddleComponents/index.js'
 import MovieInfoDialogModal from './movieinfo_popup_dialog'
 import DialogModalTest from './popupComponent'
-import { MovieForm, handleOpen, handleClose } from './movie_form';
+
 
 class Movies extends React.Component {
 

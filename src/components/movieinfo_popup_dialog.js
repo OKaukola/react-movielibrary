@@ -5,7 +5,6 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 import MovieInfoPage2 from './movieInfoPage2'
 import Register from './auth/register';
-import { Link } from 'react-router';
 
 const customContentStyle = {
   width: '30%',

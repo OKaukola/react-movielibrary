@@ -1,6 +1,3 @@
-import { List, Map } from 'immutable';
-import update from 'react-addons-update';
-
 import { TEST_ACTION, ERROR_RESPONSE } from '../actions/types';
 import { AUTH_USER, UNAUTH_USER, AUTH_ERROR, FORGOT_PASSWORD_REQUEST, RESET_PASSWORD_REQUEST, PROTECTED_TEST } from '../actions/types';
 

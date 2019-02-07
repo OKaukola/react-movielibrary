@@ -4,16 +4,12 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import { routerMiddleware } from 'react-router-redux';
 import { Router, browserHistory } from 'react-router';
-import { combineReducers } from "redux";
-import reduxThunk from 'redux-thunk';
 import thunkMiddleware from 'redux-thunk'
-import thunk from 'redux-thunk';
 import cookie from 'react-cookie';
 import routes from './routes';
 import reducers from './reducers/index';
 import ReactGA from 'react-ga';
 import { AUTH_USER } from './actions/types';
-//test
 
 require('./assets/stylesheets/base.scss');
 require('./assets/stylesheets/lemonade.scss');
